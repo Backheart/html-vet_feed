@@ -1,0 +1,203 @@
+body {
+  background-color: #899282;
+  background-size: cover;
+  backdrop-filter: blur(7px);
+
+  margin: 50px;
+}
+
+h1 {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-size: 5rem;
+  color: #f6e6cb;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.headTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titlePhoto {
+  object-fit: cover;
+  width: 1200px;
+  height: 200px;
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 30px;
+  flex-shrink: 1;
+}
+
+.title_P {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #c2ccba;
+  text-align: center;
+  margin: 20px;
+}
+
+.photo {
+  max-width: 100%;
+  object-fit: cover;
+  width: 90%;
+  height: 400px;
+  margin: 20px;
+  border-radius: 20px;
+  flex: 1;
+}
+
+.pricing-tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3.2rem;
+  color: #333f2a;
+  padding: 10px;
+  font-weight: 100;
+}
+
+.pricing-title {
+  padding: 20px;
+  color: rgb(4, 54, 42);
+  background-color: #e7d4b56c;
+  border-radius: 20px;
+  border: solid #f6e6cb 1px;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-size: 2rem;
+  object-fit: cover;
+  margin: 20px;
+
+  flex: 1;
+}
+
+.pricing_button {
+  font-size: 1.3rem;
+  border-radius: 10px;
+  border: solid 0px;
+  width: 50%;
+  height: 50px;
+  background-color: rgba(255, 68, 0, 0.199);
+  color: rgb(255, 255, 255);
+  flex: 1 0 0;
+}
+.clickButon{
+  display: flex;
+  justify-content: center;
+}
+
+.basePhoto {
+  object-fit: cover;
+  width: 1900px;
+  height: 50px;
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+  flex-shrink: 1;
+  margin-bottom: 50px;
+}
+
+.base-photo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  color: #ffffff;
+ 
+  margin: 20px;
+}
+footer ul {
+  list-style-type: none;
+}
+
+
+
+button{
+ 
+ width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: solid 1px #f6e6cb;
+  background-color: #333f2a00;
+  font-size: 1rem;
+  color: #c2ccba;
+  
+
+}
+
+.buttons{
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 1370px) {
+  .pricing_button {
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: solid 0px;
+    width: 60%;
+    height: 50px;
+  }
+}
+
+@media (max-width: 750px) {
+  .pricing-title {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 6px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    flex-grow: 1;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .title_P {
+    font-size: 1.3rem;
+  }
+
+  .photo {
+    max-width: 100%;
+    object-fit: cover;
+
+    height: 400px;
+    flex-grow: 200px;
+  }
+
+  .pricing-tag {
+    flex-direction: column;
+
+    font-size: 1.3rem;
+  }
+
+  .pricing_button {
+    font-size: 1.3rem;
+    flex: 1;
+  }
+}
+
